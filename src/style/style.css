@@ -1,0 +1,38 @@
+.cards:hover {
+	/*transition-timing-function: ease-in;*/
+  	transition: 0.3s ease-in;
+	background-color: black;
+	border: none;
+}
+.bg-dark-blue{
+	background-color: #091650 !important;
+	box-shadow: 0px 0px 10px 0px #7c8cce;
+}
+.nav-link{
+	color: white !important;
+}
+.body{
+	color: white;
+	background-color: #091650;
+	border-radius: 0px 0px 40px 40px;
+	box-shadow: 0px 4px 10px #7c8cce;
+	overflow-x: hidden; 
+}
+
+.text-darkblue{
+	color: #091650;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
