@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from './client/home';
 import Navbar from './files/navbar';
+import Footer from './files/footer';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         <Route path="/" element={<Index />}>
         </Route>
       </Routes>
-        <Navbar/>
+      <Footer/>
     </BrowserRouter>
   );
 }

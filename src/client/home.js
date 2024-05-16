@@ -24,9 +24,8 @@ function Index() {
 		alert("button clicked");
 
 	}
-
 	return (
-		<div className="">
+		<div className="main">
 			<div style={banner} className="d-flex justify-content-center align-items-center display-4 fw-bold">
 				<div className="row text-lg-start text-center px-lg-0 px-5">
 					<div className="col-lg-6 col-12">
@@ -49,7 +48,7 @@ function Index() {
 				</div>
 			</div>
 			<div className="body">
-				<div className="container my-5">
+				<div className="container py-5">
 					<h5 className="text-center fw-bold">
 						PARTNERS
 					</h5>
@@ -59,32 +58,32 @@ function Index() {
 					<div className="row mt-5" id="img">
 						<div className="col-lg-2 col-6 d-flex">
 							<div className="card cards p-5">
-								<img className="img-fluid" src="https://techsolve.pro/wp-content/uploads/2023/10/cyberjet-l2-p6-4.png" />
+								<img className="img-fluid" src="/img/LOGO1.png" />
 							</div>
 						</div>
 						<div className="col-lg-2 col-6 d-flex">
 							<div className="card cards p-5">
-								<img className="img-fluid" src="https://techsolve.pro/wp-content/uploads/2023/10/cyberjet-l2-p5-1-2.png" />
+								<img className="img-fluid" src="/img/LOGO2.png" />
 							</div>
 						</div>
 						<div className="col-lg-2 col-6 d-flex">
 							<div className="card cards p-5">
-								<img className="img-fluid" src="https://techsolve.pro/wp-content/uploads/2023/10/cyberjet-l2-p4-1-2.png" />
+								<img className="img-fluid" src="/img/LOGO3.png" />
 							</div>
 						</div>
 						<div className="col-lg-2 col-6 d-flex">
 							<div className="card cards p-5">
-								<img className="img-fluid" src="https://techsolve.pro/wp-content/uploads/2023/10/cyberjet-l2-p3-1-2.png" />
+								<img className="img-fluid" src="/img/LOGO4.png" />
 							</div>
 						</div>
 						<div className="col-lg-2 col-6 d-flex">
 							<div className="card cards p-5">
-								<img className="img-fluid" src="https://techsolve.pro/wp-content/uploads/2023/10/cyberjet-l2-p2-1-4.png" />
+								<img className="img-fluid" src="/img/LOGO5.png" />
 							</div>
 						</div>
 						<div className="col-lg-2 col-6 d-flex">
 							<div className="card cards p-5">
-								<img className="img-fluid" src="https://techsolve.pro/wp-content/uploads/2023/10/cyberjet-l2-p1-1-4.png" />
+								<img className="img-fluid" src="/img/LOGO6.png" />
 							</div>
 						</div>
 					</div>
@@ -134,7 +133,7 @@ function Index() {
 					</p>
 				</div>
 				<div className="row mt-5">
-					<div className="col-lg-3 col-6 d-flex my-5">
+					<div className="col-lg-3 d-flex my-5">
 						<div className="card p-5 bg-dark-blue">
 							<p className="fs-4 fw-semibold text-light">Streamlined Processes</p>
 							<p className="text-light fs-5">
@@ -143,7 +142,7 @@ function Index() {
 							</p>
 						</div>
 					</div>
-					<div className="col-lg-3 col-6 d-flex my-5">
+					<div className="col-lg-3 d-flex my-5">
 						<div className="card p-5 bg-dark-blue">
 							<p className="fs-4 fw-semibold text-light">Enhanced Security</p>
 							<p className="text-light fs-5">
@@ -152,7 +151,7 @@ function Index() {
 							</p>
 						</div>
 					</div>
-					<div className="col-lg-3 col-6 d-flex my-5">
+					<div className="col-lg-3 d-flex my-5">
 						<div className="card p-5 bg-dark-blue">
 							<p className="fs-4 fw-semibold text-light">Customized Solutions</p>
 							<p className="text-light fs-5">
@@ -161,7 +160,7 @@ function Index() {
 							</p>
 						</div>
 					</div>
-					<div className="col-lg-3 col-6 d-flex my-5">
+					<div className="col-lg-3 d-flex my-5">
 						<div className="card p-5 bg-dark-blue">
 							<p className="fs-4 fw-semibold text-light">Continuous Support</p>
 							<p className="text-light fs-5">
@@ -209,7 +208,7 @@ function Index() {
 						<div className="row p-5">
 							<div className="col-lg-6">
 								<div className="row">
-									<div className="col-6 p-2 text-center text-light">
+									<div className="col-lg-6 col-12 p-2 text-center text-light">
 										<div className="card p-5 rounded-5">
 											<p className="display-4 fw-bold">
 												245
@@ -217,7 +216,7 @@ function Index() {
 											<p className="fs-5 fw-semibold">Global Projects</p>
 										</div>
 									</div>
-									<div className="col-6 p-2 text-center text-light">
+									<div className="col-lg-6 col-12 p-2 text-center text-light">
 										<div className="card p-5 rounded-5">
 											<p className="display-4 fw-bold">
 												846
@@ -225,7 +224,7 @@ function Index() {
 											<p className="fs-5 fw-semibold">Clients protection	</p>
 										</div>
 									</div>
-									<div className="col-6 p-2 text-center text-light">
+									<div className="col-lg-6 col-12 p-2 text-center text-light">
 										<div className="card p-5 rounded-5">
 											<p className="display-4 fw-bold">
 												100%
@@ -233,7 +232,7 @@ function Index() {
 											<p className="fs-5 fw-semibold">Service Guarantee</p>
 										</div>
 									</div>
-									<div className="col-6 p-2 text-center text-light">
+									<div className="col-lg-6 col-12 p-2 text-center text-light">
 										<div className="card p-5 rounded-5">
 											<p className="display-4 fw-bold">
 												1145+
@@ -243,7 +242,7 @@ function Index() {
 									</div>
 								</div>
 							</div>
-							<div className="col-lg-6 d-flex align-items-center text-light px-5">
+							<div className="col-lg-6 d-flex align-items-center text-light p-5">
 								<div>
 									<p className="fw-bold">STATISTICS</p>
 									<h1>
@@ -262,16 +261,17 @@ function Index() {
 					</div>
 				</div>
 			</div>
-			<footer className="container-fluid py-5 bg-dark-blue">
-			<div className="my-4 p-5 text-center">
-				<h1 className="text-center display-4 fw-bold text-light">
-					Ready To Get Started? We're Here To Help.
-				</h1>
-				<button className="btn btn-light col-lg-3 mt-4 col-6 fw-bold fs-5">
-					Let's Talk		
-				</button>
+			<div className="container-fluid py-5 bg-dark-blue">
+				<div className="mt-4 p-5 text-center">
+					<h1 className="text-center display-4 fw-bold text-light">
+						Ready To Get Started? We're Here To Help.
+					</h1>
+					<button className="btn btn-light col-lg-3 mt-4 col-6 fw-bold fs-5">
+						Let's Talk		
+					</button>
+				</div>
 			</div>
-			</footer>
+			
 		</div>
 	);
 }
