@@ -19,6 +19,9 @@
 	overflow-x: hidden; 
 }
 
+.text-justify{
+	text-align: justify !important;	
+}
 .text-darkblue{
 	color: #091650;
 }

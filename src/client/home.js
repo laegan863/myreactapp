@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './../style/style.css';
 function Index() {
 	const banner = {
-		backgroundImage: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkUvhi-mYdaquhn2WlKlHKiP6VEQQ0izxhKg&s)',
+		backgroundImage: 'url(/img/banner1.png)',
 		height: '600px',
 		width: '100%',
 		backgroundSize: 'cover',
@@ -26,7 +26,7 @@ function Index() {
 	}
 
 	return (
-		<div className="mb-5">
+		<div className="">
 			<div style={banner} className="d-flex justify-content-center align-items-center display-4 fw-bold">
 				<div className="row text-lg-start text-center px-lg-0 px-5">
 					<div className="col-lg-6 col-12">
@@ -177,7 +177,101 @@ function Index() {
 					</button>
 				</div>
 			</div>
-			<div className="container"></div>
+			<div className="container">
+				<div className="card rounded-5 p-5 bg-dark-blue text-light text-uppercase">
+					<div className="row">
+						<div className="col-lg-6 col-12 px-lg-5 px-2 d-flex align-items-center justify-content-center		">
+							<div className="text-justify">
+								<p>RELIABLE IT & CYBER Security</p>
+								<h1 className="text-start">Cyber Security Services With Top IT Experts</h1>
+								<p>
+									In today’s digital landscape, cyber threats are relentless. 
+									At Techsolve.pro, our top IT experts are dedicated to not just countering these threats but staying a step ahead. 
+									 their profound expertise, 
+									we provide customized, real-time cyber protection tailored to your unique vulnerabilities.
+								</p>
+								<p>
+									Beyond traditional defense mechanisms, our comprehensive approach encompasses everything 
+									from advanced intrusion detection to fostering a culture of cyber awareness within your team. Entrust Techsolve.
+									pro with your digital security and navigate the online realm with unparalleled confidence.
+								</p>
+							</div>
+						</div>
+						<div className="col-lg-6 col-12 px-lg-5 px-2 d-flex align-items-center justify-content-center">
+							<img src="/img/3.png" className="img-fluid" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className="container-fluid mt-5">
+				<div className="row">
+					<div className="col-12 px-0 bg-dark-blue">
+						<div className="row p-5">
+							<div className="col-lg-6">
+								<div className="row">
+									<div className="col-6 p-2 text-center text-light">
+										<div className="card p-5 rounded-5">
+											<p className="display-4 fw-bold">
+												245
+											</p>
+											<p className="fs-5 fw-semibold">Global Projects</p>
+										</div>
+									</div>
+									<div className="col-6 p-2 text-center text-light">
+										<div className="card p-5 rounded-5">
+											<p className="display-4 fw-bold">
+												846
+											</p>
+											<p className="fs-5 fw-semibold">Clients protection	</p>
+										</div>
+									</div>
+									<div className="col-6 p-2 text-center text-light">
+										<div className="card p-5 rounded-5">
+											<p className="display-4 fw-bold">
+												100%
+											</p>
+											<p className="fs-5 fw-semibold">Service Guarantee</p>
+										</div>
+									</div>
+									<div className="col-6 p-2 text-center text-light">
+										<div className="card p-5 rounded-5">
+											<p className="display-4 fw-bold">
+												1145+
+											</p>
+											<p className="fs-5 fw-semibold">Exports Team</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="col-lg-6 d-flex align-items-center text-light px-5">
+								<div>
+									<p className="fw-bold">STATISTICS</p>
+									<h1>
+										Our Large Acheivements in Cyber Security
+									</h1>
+									<p>
+										At Techsolve.pro, our cyber security milestones stand as a testament to our dedication and prowess. 
+										From thwarting sophisticated threats to innovating security protocols, we’ve set industry benchmarks, 
+										ensuring our clients navigate the digital realm safely and confidently. 
+										Join the ranks of those secured by our award-winning solutions.
+									</p>
+									<button className="btn btn-light fw-semibold col-lg-4 col-6 py-3 fs-5"> Get Stated</button>
+								</div>							
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer className="container-fluid py-5 bg-dark-blue">
+			<div className="my-4 p-5 text-center">
+				<h1 className="text-center display-4 fw-bold text-light">
+					Ready To Get Started? We're Here To Help.
+				</h1>
+				<button className="btn btn-light col-lg-3 mt-4 col-6 fw-bold fs-5">
+					Let's Talk		
+				</button>
+			</div>
+			</footer>
 		</div>
 	);
 }
