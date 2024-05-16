@@ -16,9 +16,11 @@
 	background-color: #091650;
 	border-radius: 0px 0px 40px 40px;
 	box-shadow: 0px 4px 10px #7c8cce;
+	
+}
+.main{
 	overflow-x: hidden; 
 }
-
 .text-justify{
 	text-align: justify !important;	
 }
@@ -26,7 +28,7 @@
 	color: #091650;
 }
 
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
     width: 10px;
     background-color: transparent;
 }
@@ -38,4 +40,4 @@
 * {
     scrollbar-width: thin;
     scrollbar-color: transparent transparent;
-}
+}*/

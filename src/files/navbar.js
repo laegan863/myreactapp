@@ -22,6 +22,9 @@ function Navbar (){
 		        <li className="nav-item">
 		        <Link className="nav-link" to="/privacy-policy">Privacy Policy</Link>
 		        </li>
+		        <li className="nav-item">
+		        	<Link className="nav-link" to="/terms-and-condition">Terms&Conditions</Link>
+		        </li>
 		      </ul>
 		    </div>
 		  </div>
